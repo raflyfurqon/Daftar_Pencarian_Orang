@@ -30,3 +30,11 @@ public class HashTableJava {
         // Mengurutkan nama pembunuh secara abjad
         List<String> daftarPembunuh = new ArrayList<>(pembunuhMap.keySet());
         Collections.sort(daftarPembunuh);
+
+        // Menampilkan output
+        System.out.println("DAFTAR PENCARIAN ORANG KASUS PEMBUNUHAN");
+        for (String pembunuh : daftarPembunuh) {
+            System.out.println(pembunuh + " " + pembunuhMap.get(pembunuh));
+        }
+    }
+}

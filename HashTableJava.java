@@ -26,3 +26,7 @@ public class HashTableJava {
         // Menghapus pembunuh yang juga merupakan korban
         for (String korban : korbanSet) {
             pembunuhMap.remove(korban);
+        }
+        // Mengurutkan nama pembunuh secara abjad
+        List<String> daftarPembunuh = new ArrayList<>(pembunuhMap.keySet());
+        Collections.sort(daftarPembunuh);

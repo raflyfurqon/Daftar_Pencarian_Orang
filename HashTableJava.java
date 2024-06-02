@@ -21,3 +21,8 @@ public class HashTableJava {
             pembunuhMap.put(pembunuh, pembunuhMap.getOrDefault(pembunuh, 0) + 1);
             korbanSet.add(korban);
         }
+        scanner.close();
+
+        // Menghapus pembunuh yang juga merupakan korban
+        for (String korban : korbanSet) {
+            pembunuhMap.remove(korban);

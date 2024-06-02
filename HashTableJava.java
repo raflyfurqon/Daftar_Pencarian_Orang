@@ -1,4 +1,3 @@
-package hashtable.java;
 import java.util.*;
 import java.util.Hashtable;
 

@@ -30,6 +30,7 @@ public class HashTableJava {
         System.out.println("DAFTAR PENCARIAN ORANG KASUS PEMBUNUHAN");
         for (String pembunuh : daftarPembunuh) {
             System.out.println(pembunuh + " " + pembunuhMap.get(pembunuh));
+            System.out.println("1st");
         }
     }
 }

@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.Hashtable;
+import java.util.Scanner;
 
 public class HashTableJava {
         public static void main(String[] args) {
